@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styleContatos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap" rel="stylesheet">
+    <title> Contatos </title>
+</head>
+
+
+
+<body>
+
+    <header id="menu">
+    <img class="logo" src="imagens/eu.png" alt="" width="220">
+    <h1>Portifólio e Currículo</h1>
+
+    <nav>
+        <h2>Kauê Ramos</h2>
+
+        <a class="links1" href="index.html">Currículo</a>
+        <a class="links1" href="portifolio.html">Portifólio</a>
+        <a class="links1" href="contatos.html">Contatos</a>
+
+    </nav>
+
+
+</header>
+
+
+    <div class="info01">
+        <h3>Informações Possoais</h3>
+        Rua joão Ricardo 165, São Paulo, 11 94211-4449, ramoskaue812@gmail.com, Brasileiro e
+        Solteiro
+    </div>
+
+    <form action="email" method="get">
+        <fieldset>
+            <legend>identificação do usuário</legend>
+            <p>
+                <label for="">nome:</label>
+                <input type="text" id="cnome" size="50" maxlength="45" placeholder="digite o seu nome completo" required
+                    autocomplete="on">
+
+            </p>
+
+            <p>
+                <label for="">senha:</label>
+                <input type="text" id="csenha" size="50" maxlength="45" placeholder="digite o seu nome completo" required
+                    autocomplete="on">
+
+            </p>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Endereço do Usuário</legend>
+            <p>
+                <label for="">Logradouro:</label>
+                <input type="text" id="clogradouro" size="50" maxlength="45" placeholder="Rua, Av. Trav..." required>
+            </p>
+
+            <p>
+                <label for="">Número:</label>
+                <input type="number" name="" id="">
+            </p>
+            <label for="">Estado:</label>
+                    <select name="estado" id="cestado">
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                        <option value="EX">Estrangeiro</option>
+                    </select>
+                </p>
+                <p>
+                    <label>Cidade:</label><input type="text" id="ccidade" size="20" maxlength="20"
+                        placeholder="Digite a cidade que mora.">
+                </p>
+            </fieldset>
+
+            <fieldset id="mensagem">
+                <legend>Mensagem do usuário</legend>
+                <p>
+                    <label for="">Mensagem:</label>
+                </p>
+                
+                <p>
+                    <textarea name="msg" id="cmsg" cols="50" rows="10" placeholder="Digite aqui sua mensagem."
+                        maxlength="1000"> </textarea>
+                </p>
+            
+
+            <input type="button" value="Enviar" class="btn" name="enviar">
+
+            <input type="reset" value="Limpar" class="btn" name="limpar">
+
+
+        </fieldset>
+    </form>
+
+    <footer class="footer">
+        <p> Porftifolio - 2025 Designer Kauê Ramos</P>
+    </footer>
+</body>
+
+</html>
